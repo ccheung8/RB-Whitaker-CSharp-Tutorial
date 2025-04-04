@@ -1,6 +1,4 @@
-﻿Console.WriteLine("Hello, World!");
-
-// making instances of the class
+﻿// making instances of the class
 Player player1 = new Player("HAL 9000");
 Player player2 = new Player("Tron");
 

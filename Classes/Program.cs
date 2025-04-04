@@ -13,13 +13,6 @@ class Player {
   // makes it so there's only one instance of this object, shared across classes
   private static int _pointsNeededForExtraLife = 1000;
 
-  // class constructor
-  public Player(string name) {
-    _name = name;
-    _points = 0;
-    _livesLeft = 5;
-  }
-
   // methods that allow viewing values without modifying
   public string GetName() { return _name; }
   public int GetPoints() { return _points; }
@@ -43,5 +36,12 @@ class Player {
     if (_livesLeft == 0) {
       _points = 0;
     }
+  }
+
+  // class constructor
+  public Player(string name) {
+    _name = name;
+    _points = 0;
+    _livesLeft = 5;
   }
 }

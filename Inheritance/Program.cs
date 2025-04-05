@@ -49,7 +49,7 @@ sealed class Square : Polygon {
   public float Size { get; set; }
 
   // base(4) is same as saying NumberOfSides = 4 or new Polygon(4)
-  // similar to super() in js
+  // similar to super() in java
   // sets NumberOfSides in parent (Polygon) class to 4
   public Square (float size) : base(4) {
     Size = size;
